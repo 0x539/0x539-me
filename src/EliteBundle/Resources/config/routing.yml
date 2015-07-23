@@ -1,0 +1,3 @@
+elite_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: EliteBundle:Default:index }
