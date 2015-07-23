@@ -1,3 +1,7 @@
 elite_homepage:
     path:     /hello/{name}
     defaults: { _controller: EliteBundle:Default:index }
+
+elite_test:
+    path: /
+    defaults: { _controller: EliteBundle:Default:test }
